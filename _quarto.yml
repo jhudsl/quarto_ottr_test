@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "OTTR Website"
+  navbar:
+    background: primary
+    left:
+      - href: about.qmd
+        text: About
+      - href: 01-intro.qmd
+        text: Intro
+      - href: 02-chapter-of-course.qmd
+        text: Chapter 1
+      - href: References.qmd
+        text: References
+      - href: credits.qmd
+        text: Credits
+
+format:
+  html:
+    css: assets/styles.css
+    toc: true
