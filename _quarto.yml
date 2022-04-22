@@ -10,7 +10,7 @@ website:
         text: About
       - href: 01-intro.qmd
         text: Intro
-      - href: 02-chapter-of-course.qmd
+      - href: 02-chapter_of_course.qmd
         text: Chapter 1
       - href: References.qmd
         text: References
@@ -19,5 +19,8 @@ website:
 
 format:
   html:
+    theme: cosmo
     css: assets/styles.css
     toc: true
+  pdf:
+    documentclass: scrreport
