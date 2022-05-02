@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.298">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>OTTR Website – chapter_of_course</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link id="quarto-text-highlighting-styles" href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">OTTR Website</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./01-intro.html">Intro</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./02-chapter_of_course.html" aria-current="page">Chapter 1</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./References.html">References</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./credits.html">Credits</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#a-new-chapter" id="toc-a-new-chapter" class="nav-link active" data-scroll-target="#a-new-chapter">A new chapter</a>
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#libraries" id="toc-libraries" class="nav-link" data-scroll-target="#libraries">Libraries</a></li>
+  </ul></li>
+  <li><a href="#topic-of-section" id="toc-topic-of-section" class="nav-link" data-scroll-target="#topic-of-section">Topic of Section</a>
+  <ul class="collapse">
+  <li><a href="#subtopic" id="toc-subtopic" class="nav-link" data-scroll-target="#subtopic">Subtopic</a>
+  <ul class="collapse">
+  <li><a href="#code-examples" id="toc-code-examples" class="nav-link" data-scroll-target="#code-examples">Code examples</a></li>
+  <li><a href="#image-example" id="toc-image-example" class="nav-link" data-scroll-target="#image-example">Image example</a></li>
+  <li><a href="#video-examples" id="toc-video-examples" class="nav-link" data-scroll-target="#video-examples">Video examples</a></li>
+  <li><a href="#links-to-files" id="toc-links-to-files" class="nav-link" data-scroll-target="#links-to-files">Links to files</a></li>
+  <li><a href="#links-to-websites" id="toc-links-to-websites" class="nav-link" data-scroll-target="#links-to-websites">Links to websites</a></li>
+  <li><a href="#citation-examples" id="toc-citation-examples" class="nav-link" data-scroll-target="#citation-examples">Citation examples</a></li>
+  <li><a href="#fyi-boxes" id="toc-fyi-boxes" class="nav-link" data-scroll-target="#fyi-boxes">FYI boxes</a></li>
+  <li><a href="#dropdown-summaries" id="toc-dropdown-summaries" class="nav-link" data-scroll-target="#dropdown-summaries">Dropdown summaries</a></li>
+  </ul></li>
+  <li><a href="#print-out-session-info" id="toc-print-out-session-info" class="nav-link" data-scroll-target="#print-out-session-info">Print out session info</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="a-new-chapter" class="level1">
+<h1>A new chapter</h1>
+<p>*If you haven’t yet read the getting started Wiki pages; <a href="https://github.com/jhudsl/OTTR_Template/wiki/Getting-started">start there</a></p>
+<p>Every chapter needs to start out with this chunk of code:</p>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
+<p>*Every chapter also needs Learning objectives that will look like this:</p>
+<p>This chapter will cover:</p>
+<ul>
+<li>{You can use https://tips.uark.edu/using-blooms-taxonomy/ to define some learning objectives here}</li>
+<li>{Another learning objective}</li>
+</ul>
+</section>
+<section id="libraries" class="level2">
+<h2 class="anchored" data-anchor-id="libraries">Libraries</h2>
+<p>For this chapter, we’ll need the following packages attached:</p>
+<p>*Remember to add <a href="https://github.com/jhudsl/OTTR_Template/wiki/Using-Docker#starting-a-new-docker-image">any additional packages you need to your course’s own docker image</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(magrittr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="topic-of-section" class="level1">
+<h1>Topic of Section</h1>
+<p>You can write all your text in sections like this!</p>
+<section id="subtopic" class="level2">
+<h2 class="anchored" data-anchor-id="subtopic">Subtopic</h2>
+<p>Here’s a subheading and some text in this subsection!</p>
+<section id="code-examples" class="level3">
+<h3 class="anchored" data-anchor-id="code-examples">Code examples</h3>
+<p>You can demonstrate code like this:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>output_dir <span class="ot">&lt;-</span> <span class="fu">file.path</span>(<span class="st">"resources"</span>, <span class="st">"code_output"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">dir.exists</span>(output_dir)) {</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">dir.create</span>(output_dir)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>And make plots too:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>hist_plot <span class="ot">&lt;-</span> <span class="fu">hist</span>(iris<span class="sc">$</span>Sepal.Length)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="resources/images/02-chapter_of_course_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>You can also save these plots to file:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">png</span>(<span class="fu">file.path</span>(output_dir, <span class="st">"test_plot.png"</span>))</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>hist_plot</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>$breaks
+[1] 4.0 4.5 5.0 5.5 6.0 6.5 7.0 7.5 8.0
+
+$counts
+[1]  5 27 27 30 31 18  6  6
+
+$density
+[1] 0.06666667 0.36000000 0.36000000 0.40000000 0.41333333 0.24000000 0.08000000
+[8] 0.08000000
+
+$mids
+[1] 4.25 4.75 5.25 5.75 6.25 6.75 7.25 7.75
+
+$xname
+[1] "iris$Sepal.Length"
+
+$equidist
+[1] TRUE
+
+attr(,"class")
+[1] "histogram"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>quartz_off_screen 
+                2 </code></pre>
+</div>
+</div>
+</section>
+<section id="image-example" class="level3">
+<h3 class="anchored" data-anchor-id="image-example">Image example</h3>
+<p>How to include a Google slide. It’s simplest to use the <code>ottrpal</code> package:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="resources/images/02-chapter_of_course_files/figure-html//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png" class="img-fluid figure-img" alt="Major point!! example image"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>But if you have the slide or some other image locally downloaded you can also use html like this:</p>
+<p><img src="resources/images/02-chapter_of_course_files/figure-html//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png" title="Major point!! example image" alt="Major point!! example image" style="display: block; margin: auto;"></p>
+</section>
+<section id="video-examples" class="level3">
+<h3 class="anchored" data-anchor-id="video-examples">Video examples</h3>
+<p>To show videos in your course, you can use markdown syntax like this:</p>
+<p><a href="https://www.youtube.com/embed/VOCYL-FNbr0">A video we want to show</a></p>
+<p>Alternatively, you can use <code>knitr::include_url()</code> like this: Note that we are using <code>echo=FALSE</code> in the code chunk because we don’t want the code part of this to show up. If you are unfamiliar with <a href="https://rmarkdown.rstudio.com/lesson-3.html">how R Markdown code chunks work, read this</a>.</p>
+<div class="cell">
+<iframe src="https://www.youtube.com/embed/VOCYL-FNbr0" width="672" height="400px" data-external="1">
+</iframe>
+</div>
+<p>OR this works:</p>
+<iframe src="https://www.youtube.com/embed/VOCYL-FNbr0" width="672" height="400px">
+</iframe>
+</section>
+<section id="links-to-files" class="level3">
+<h3 class="anchored" data-anchor-id="links-to-files">Links to files</h3>
+<p>This works:</p>
+<p><a href="https://www.bgsu.edu/content/dam/BGSU/center-for-faculty-excellence/docs/TLGuides/TLGuide-Learning-Objectives.pdf">This works</a>.</p>
+<p>Or this:</p>
+<iframe src="https://www.bgsu.edu/content/dam/BGSU/center-for-faculty-excellence/docs/TLGuides/TLGuide-Learning-Objectives.pdf" width="672" height="800px">
+</iframe>
+</section>
+<section id="links-to-websites" class="level3">
+<h3 class="anchored" data-anchor-id="links-to-websites">Links to websites</h3>
+<p>Examples of including a website link.</p>
+<p>This works:</p>
+</section>
+<section id="citation-examples" class="level3">
+<h3 class="anchored" data-anchor-id="citation-examples">Citation examples</h3>
+<p>We can put citations at the end of a sentence like this <span class="citation" data-cites="rmarkdown2021">[@rmarkdown2021]</span>. Or multiple citations <span class="citation" data-cites="rmarkdown2021">[@rmarkdown2021, @Xie2018]</span>.</p>
+<p>but they need a ; separator <span class="citation" data-cites="rmarkdown2021 Xie2018">[@rmarkdown2021; @Xie2018]</span>.</p>
+<p>In text, we can put citations like this <span class="citation" data-cites="rmarkdown2021">@rmarkdown2021</span>.</p>
+</section>
+<section id="fyi-boxes" class="level3">
+<h3 class="anchored" data-anchor-id="fyi-boxes">FYI boxes</h3>
+<div class="fyi">
+<p>Please click on the subsection headers in the left hand navigation bar (e.g., 2.1, 4.3) a second time to expand the table of contents and enable the <code>scroll_highlight</code> feature (<a href="introduction.html#scroll-highlight">see more</a>).</p>
+</div>
+</section>
+<section id="dropdown-summaries" class="level3">
+<h3 class="anchored" data-anchor-id="dropdown-summaries">Dropdown summaries</h3>
+<details>
+<summary>
+You can hide additional information in a dropdown menu
+</summary>
+Here’s more words that are hidden.
+</details>
+</section>
+</section>
+<section id="print-out-session-info" class="level2">
+<h2 class="anchored" data-anchor-id="print-out-session-info">Print out session info</h2>
+<p>You should print out session info when you have code for <a href="https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/managing-package-versions.html">reproducibility purposes</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">session_info</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>─ Session info ───────────────────────────────────────────────────────────────
+ setting  value
+ version  R version 4.1.2 (2021-11-01)
+ os       macOS Big Sur 10.16
+ system   x86_64, darwin17.0
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ ctype    en_US.UTF-8
+ tz       America/New_York
+ date     2022-04-22
+ pandoc   2.14.1 @ /usr/local/bin/ (via rmarkdown)
+
+─ Packages ───────────────────────────────────────────────────────────────────
+ package     * version date (UTC) lib source
+ cachem        1.0.6   2021-08-19 [1] CRAN (R 4.1.0)
+ callr         3.7.0   2021-04-20 [1] CRAN (R 4.1.0)
+ cli           3.1.0   2021-10-27 [1] CRAN (R 4.1.0)
+ crayon        1.5.0   2022-02-14 [1] CRAN (R 4.1.2)
+ curl          4.3.2   2021-06-23 [1] CRAN (R 4.1.0)
+ desc          1.4.0   2021-09-28 [1] CRAN (R 4.1.0)
+ devtools      2.4.3   2021-11-30 [1] CRAN (R 4.1.0)
+ digest        0.6.29  2021-12-01 [1] CRAN (R 4.1.0)
+ ellipsis      0.3.2   2021-04-29 [1] CRAN (R 4.1.0)
+ evaluate      0.14    2019-05-28 [1] CRAN (R 4.1.0)
+ fansi         0.5.0   2021-05-25 [1] CRAN (R 4.1.0)
+ fastmap       1.1.0   2021-01-25 [1] CRAN (R 4.1.0)
+ fs            1.5.2   2021-12-08 [1] CRAN (R 4.1.0)
+ glue          1.6.0   2021-12-17 [1] CRAN (R 4.1.0)
+ highr         0.9     2021-04-16 [1] CRAN (R 4.1.0)
+ hms           1.1.1   2021-09-26 [1] CRAN (R 4.1.0)
+ htmltools     0.5.2   2021-08-25 [1] CRAN (R 4.1.0)
+ htmlwidgets   1.5.4   2021-09-08 [1] CRAN (R 4.1.0)
+ httr          1.4.2   2020-07-20 [1] CRAN (R 4.1.0)
+ jsonlite      1.7.2   2020-12-09 [1] CRAN (R 4.1.0)
+ knitr         1.37    2021-12-16 [1] CRAN (R 4.1.0)
+ lifecycle     1.0.1   2021-09-24 [1] CRAN (R 4.1.0)
+ magrittr    * 2.0.1   2020-11-17 [1] CRAN (R 4.1.0)
+ memoise       2.0.1   2021-11-26 [1] CRAN (R 4.1.0)
+ ottrpal       1.0.1   2022-03-03 [1] CRAN (R 4.1.2)
+ pillar        1.6.4   2021-10-18 [1] CRAN (R 4.1.0)
+ pkgbuild      1.3.1   2021-12-20 [1] CRAN (R 4.1.0)
+ pkgconfig     2.0.3   2019-09-22 [1] CRAN (R 4.1.0)
+ pkgload       1.2.4   2021-11-30 [1] CRAN (R 4.1.0)
+ prettyunits   1.1.1   2020-01-24 [1] CRAN (R 4.1.0)
+ processx      3.5.2   2021-04-30 [1] CRAN (R 4.1.0)
+ ps            1.6.0   2021-02-28 [1] CRAN (R 4.1.0)
+ purrr         0.3.4   2020-04-17 [1] CRAN (R 4.1.0)
+ R6            2.5.1   2021-08-19 [1] CRAN (R 4.1.0)
+ readr         2.1.1   2021-11-30 [1] CRAN (R 4.1.0)
+ remotes       2.4.2   2021-11-30 [1] CRAN (R 4.1.0)
+ rlang         0.4.12  2021-10-18 [1] CRAN (R 4.1.0)
+ rmarkdown     2.11    2021-09-14 [1] CRAN (R 4.1.0)
+ rprojroot     2.0.2   2020-11-15 [1] CRAN (R 4.1.0)
+ sessioninfo   1.2.2   2021-12-06 [1] CRAN (R 4.1.0)
+ stringi       1.7.6   2021-11-29 [1] CRAN (R 4.1.0)
+ stringr       1.4.0   2019-02-10 [1] CRAN (R 4.1.0)
+ testthat      3.1.1   2021-12-03 [1] CRAN (R 4.1.0)
+ tibble        3.1.6   2021-11-07 [1] CRAN (R 4.1.0)
+ tzdb          0.2.0   2021-10-27 [1] CRAN (R 4.1.0)
+ usethis       2.1.5   2021-12-09 [1] CRAN (R 4.1.0)
+ utf8          1.2.2   2021-07-24 [1] CRAN (R 4.1.0)
+ vctrs         0.3.8   2021-04-29 [1] CRAN (R 4.1.0)
+ withr         2.4.3   2021-11-30 [1] CRAN (R 4.1.0)
+ xfun          0.29    2021-12-14 [1] CRAN (R 4.1.0)
+
+ [1] /Library/Frameworks/R.framework/Versions/4.1/Resources/library
+
+──────────────────────────────────────────────────────────────────────────────</code></pre>
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
